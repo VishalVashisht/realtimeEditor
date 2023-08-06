@@ -1,0 +1,92 @@
+:root{
+  --default-green: #4aed88;
+  --green-onhover: #2b824c;
+}
+
+.honePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper{
+  /* background: #282a36; */
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: var(--default-green);
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homePageLogo{
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn{
+  background: var(--default-green);
+  width: 100px;
+  margin-left: auto; 
+}
+
+.joinBtn:hover {
+  background: var(--green-onhover);
+}
+
+.createInfo {
+  margin: 20px auto 0 auto;
+}
+
+.createNewBtn{
+  color:  var(--default-green);
+  text-decoration: none;
+  border-bottom: 1px solid var(--default-green);
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: var(--green-onhover);
+  border-color: var(--green-onhover);
+}
